@@ -1,0 +1,40 @@
+$color: #00ACC1;
+$fontSize: 20px;
+
+.container {
+  color: #3F3F3F;
+}
+
+.user {
+  display: flex;
+  align-items: center;
+  color: $color;
+  font-size: $fontSize;
+  margin-bottom: 20px;
+}
+
+.user__avatar {
+  width: 120px;
+  height: 120px;
+}
+
+
+.user:nth-child(1n) .user__avatar {
+  background: url('../img/serious_cat.jpg') no-repeat center;
+  background-size: cover;
+}
+
+.user:nth-child(2n) .user__avatar {
+  background: url('../img/kuki_cat.jpg') no-repeat center;
+  background-size: cover;
+}
+
+.user:nth-child(3n) .user__avatar {
+  background: url('../img/grumpy_cat.jpg') no-repeat center;
+  background-size: cover;
+}
+
+.user:nth-child(4n) .user__avatar {
+  background: url('../img/grumpy_cat.jpg') no-repeat center;
+  background-size: cover;
+}
